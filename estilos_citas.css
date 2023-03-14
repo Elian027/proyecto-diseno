@@ -1,0 +1,76 @@
+/*configuracion de botones de menu*/
+body{
+    background-image: url(./src/fondo2.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+    background-size: 100% 40%;
+}
+
+h1, h3{
+    font-family: 'Alex Brush', cursive;
+}
+.btn {
+    padding: 10px;
+    margin: 3px;
+    color: black;
+}
+
+.menu_botones {
+    text-align: center;
+}
+
+.menu_botones a {
+    background-color: #C898BD;
+    border-radius: 17px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 12px;
+}
+/**/
+.citas {
+    text-align: center;
+}
+
+.citas a {
+    background-color: #C898BD;
+    border-radius: 17px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 12px;
+}
+/*Configuracion de tabla*/
+table, th, td{
+    border: 1px solid black;
+    /*evita los border multiples*/
+    border-collapse: collapse;
+    /*Para centrar la tabla*/
+    margin: 0 auto;
+}
+th,td{
+    /*umenta el tamanio de las celdas*/
+    padding: 10px;
+}
+
+/*Configuracion de botones finales*/
+.bbot{
+    padding: 10px;
+    margin: 3px;
+    color: black;
+}
+
+.botones_finales{
+text-align: center;
+margin: 30px;
+}
+
+.botones_finales a{
+    background-color: #C898BD;
+    border-radius: 17px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 12px;
+}
